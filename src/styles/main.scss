@@ -1,6 +1,5 @@
 @use './config' as config;
 @use './menu' as menu;
-@use './mobile';
 
 * {
   box-sizing: border-box;
@@ -15,8 +14,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
-#bg-img {
-}
+
 // Headings
 h1,
 h2,
@@ -56,8 +54,8 @@ header {
 main {
   padding: 4rem;
   //height: 100%;
-  //min-height: calc(100vh - 60px);
-  height: 100vh;
+  min-height: calc(100vh - 60px);
+  //height: 100vh;
   .icons {
     margin-top: 1rem;
 
@@ -80,6 +78,9 @@ main {
 }
 
 //About Me
+#about {
+  background-color: config.$primary-color;
+}
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -142,6 +143,10 @@ main {
 }
 
 // Work Projects
+#work {
+  background-color: config.$primary-color;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -160,6 +165,10 @@ main {
 }
 
 // Contact
+#contact {
+  background-color: config.$primary-color;
+}
+
 #contact-main {
   display: flex;
   margin-top: 100px;
@@ -262,3 +271,5 @@ main {
   color: set-text-color(config.$primary-color);
   height: 60px;
 }
+
+@import "./mobile";
