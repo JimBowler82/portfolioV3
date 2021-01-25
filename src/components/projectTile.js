@@ -7,10 +7,10 @@ export default function ProjectTile({ src, alt, url, git }) {
       <a href="#">
         <img src={src} alt={alt} />
       </a>
-      <a href="url" className="btn-light" target="_blank">
+      <a href={url} className="btn-light" target="_blank">
         <FaEye /> View Project
       </a>
-      <a href="src" className="btn-dark" target="_blank">
+      <a href={git} className="btn-dark" target="_blank">
         <FaGithub /> GitHub
       </a>
     </div>

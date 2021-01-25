@@ -6,49 +6,53 @@ import Footer from "../components/footer"
 
 const projects = [
   {
+    src: "./projects/engagmate.png",
+    alt: "EngageMate Project",
+    url: "https://engagemate.netlify.app/",
+    git: "",
+  },
+  {
+    src: "./projects/quizApp.png",
+    alt: "Trivia Quiz App",
+    url: "https://sad-bassi-0c7323.netlify.app/",
+    git: "https://github.com/JimBowler82/trivia-quiz-app",
+  },
+  {
+    src: "./projects/socPong.png",
+    alt: "SoC Pong Project",
+    url: "https://admiring-yalow-3b4727.netlify.app",
+    git: "https://github.com/JimBowler82/SOC-Pong",
+  },
+  {
+    src: "./projects/tictactoe_react.png",
+    alt: "Tic Tac Toe in React project",
+    url: "https://inspiring-goldberg-f1e2f5.netlify.app/",
+    git: "https://github.com/JimBowler82/Tic-Tac-Toe-React",
+  },
+  {
+    src: "./projects/rsp.png",
+    alt: "Rock Paper Scissors Project",
+    url: "https://sleepy-shirley-4d72eb.netlify.app/",
+    git: "https://github.com/JimBowler82/Rock-Paper-Scissors-V2",
+  },
+  {
+    src: "./projects/simpleClock.jpg",
+    alt: "Simple Digital Clock Project",
+    url: "https://suspicious-leakey-743094.netlify.app/",
+    git: "https://github.com/JimBowler82/simple-clock",
+  },
+  {
     src: "./projects/wikiViewer.png",
-    alt: "Wikipedia Viewer Project",
-    url: "",
-    git: "",
+    alt: "Wikipedia search Project",
+    url: "https://nervous-fermat-722433.netlify.app/",
+    git: "https://github.com/JimBowler82/Wikipedia-Viewer",
   },
   {
-    src: "./projects/calculator.png",
-    alt: "Calculator Project",
-    url: "",
-    git: "",
+    src: "./projects/todoApp.png",
+    alt: "Todo App Project",
+    url: "https://todoapp-jb.netlify.app/",
+    git: "https://github.com/JimBowler82/Basic-Todo-App",
   },
-  {
-    src: "./projects/bookmarker.png",
-    alt: "Bookmarker Project",
-    url: "",
-    git: "",
-  },
-  { src: "./projects/twitchTV.png", alt: "TwitchTV project", url: "", git: "" },
-  {
-    src: "./projects/filterList.png",
-    alt: "Filterable List Project",
-    url: "",
-    git: "",
-  },
-  {
-    src: "./projects/quoteMachine.png",
-    alt: "Random Quote Project",
-    url: "",
-    git: "",
-  },
-  {
-    src: "./projects/itemLister.png",
-    alt: "Item Lister Project",
-    url: "",
-    git: "",
-  },
-  {
-    src: "./projects/blockbreaker.png",
-    alt: "Block Breaker Project",
-    url: "",
-    git: "",
-  },
-  { src: "./projects/pong.png", alt: "Tennis Game Project", url: "", git: "" },
 ]
 
 export default function Portfolio({ location }) {
