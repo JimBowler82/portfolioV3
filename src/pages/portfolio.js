@@ -48,7 +48,7 @@ const projects = [
     git: "https://github.com/JimBowler82/Wikipedia-Viewer",
   },
   {
-    src: "./projects/todoApp.png",
+    src: "./projects/todoApp.jpg",
     alt: "Todo App Project",
     url: "https://todoapp-jb.netlify.app/",
     git: "https://github.com/JimBowler82/Basic-Todo-App",
