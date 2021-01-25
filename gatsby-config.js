@@ -5,6 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Welcome To My Portfolio",
+  },
+  plugins: ["gatsby-plugin-sass"],
 }
