@@ -12,6 +12,12 @@ const projects = [
     git: "",
   },
   {
+    src: "./projects/tdproject.png",
+    alt: "The Todo Project",
+    url: "https://optimistic-pasteur-c3a5de.netlify.app/",
+    git: "https://github.com/JimBowler82/theTodoProject-Client",
+  },
+  {
     src: "./projects/quizApp.png",
     alt: "Trivia Quiz App",
     url: "https://sad-bassi-0c7323.netlify.app/",
