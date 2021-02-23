@@ -18,10 +18,22 @@ const projects = [
     git: "https://github.com/JimBowler82/theTodoProject-Client",
   },
   {
+    src: "./projects/drawChat.png",
+    alt: "DrawChat",
+    url: "https://jolly-leakey-b370a1.netlify.app/",
+    git: "https://github.com/JimBowler82/DrawChat",
+  },
+  {
     src: "./projects/quizApp.png",
     alt: "Trivia Quiz App",
     url: "https://sad-bassi-0c7323.netlify.app/",
     git: "https://github.com/JimBowler82/trivia-quiz-app",
+  },
+  {
+    src: "./projects/ISSTracker.png",
+    alt: "Space Station Tracker",
+    url: "",
+    git: "https://github.com/JimBowler82/Space-Station-Tracker",
   },
   {
     src: "./projects/socPong.png",
@@ -40,12 +52,6 @@ const projects = [
     alt: "Rock Paper Scissors Project",
     url: "https://sleepy-shirley-4d72eb.netlify.app/",
     git: "https://github.com/JimBowler82/Rock-Paper-Scissors-V2",
-  },
-  {
-    src: "./projects/simpleClock.jpg",
-    alt: "Simple Digital Clock Project",
-    url: "https://suspicious-leakey-743094.netlify.app/",
-    git: "https://github.com/JimBowler82/simple-clock",
   },
   {
     src: "./projects/wikiViewer.png",
