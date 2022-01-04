@@ -11,7 +11,7 @@ export default function Home({ location }) {
         <PageHeading
           mainFirst="James"
           mainSecond="Bowler"
-          subHeading="Full Stack JavaScript Developer & Open University Computing Student"
+          subHeading="Full Stack PHP, Laravel & JavaScript Developer"
         />
         <ContactIcons />
       </main>

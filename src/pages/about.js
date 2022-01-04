@@ -23,18 +23,16 @@ export default function About({ location }) {
           <div className="bio">
             <h3 className="text-secondary">BIO</h3>
             <p>
-              Hi! My name is James. I am a full stack JavaScript developer with
-              experience delivering real world solutions in agile tech
-              environments. A background in heavy goods transport and a passion
-              for computing and learning, I am excited to be transitioning into
-              the innovative and inspiring world of tech.
+              Hi! My name is James. I am a full stack PHP, Laravel & JavaScript
+              developer with experience delivering real world solutions in agile
+              tech environments.
             </p>
           </div>
 
           <div className="job job-1">
             <h3>The Open University</h3>
             <h5>BSc (Honours) Computing and IT (Software)</h5>
-            <p>Year 6 of 6</p>
+
             <p>Completed Modules:</p>
             <ul>
               <li>My Digital Life</li>
@@ -45,9 +43,6 @@ export default function About({ location }) {
               <li>Algorithms, Data Structures and Computability</li>
               <li>Web Technologies</li>
               <li>Web, Mobile and Cloud Technologies</li>
-            </ul>
-            <p>Enrolled Modules:</p>
-            <ul>
               <li>Interaction Design & UX</li>
               <li>Software Engineering</li>
               <li>Computing & IT Project</li>
