@@ -6,6 +6,12 @@ import Footer from "../components/footer"
 
 const projects = [
   {
+    src: "./projects/ecomproject.png",
+    alt: "EcomProject",
+    url: "http://ecomproject.herokuapp.com/",
+    git: "https://github.com/JimBowler82/ecomProject",
+  },
+  {
     src: "./projects/engagmate.png",
     alt: "EngageMate Project",
     url: "https://engagemate.netlify.app/",
